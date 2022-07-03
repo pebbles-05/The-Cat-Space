@@ -1,0 +1,55 @@
+.carousal{
+  width: 100%;
+}
+.carousal__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+    img{
+      width: 60%;
+    }
+
+                  @include media("<=500px"){
+                      padding-bottom: 2em;
+                  }
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+        @include media("<=500px"){
+          gap: 0.5em;
+        }
+}
+span.swiper-pagination-bullet{
+    width: 0.9em;
+    height: 0.9em;
+    background: #808080;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in;
+    opacity: 1;
+
+          @include media("<=500px"){
+            height: 0.7em;
+            width: 0.7em;
+          }
+
+
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  height: 0.6em;
+width: 3em;
+border-radius: 25px;
+background: #FFFFFF;
+box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.4), inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+      @include media("<=500px"){
+      height: 0.4em;
+      width: 2em;
+      }
+}
+
+

@@ -1,0 +1,61 @@
+@import "./globalVariables.scss";
+@import "./loader.scss";
+@import "./breakpoint.scss";
+@import "../subcomponent_styles/carousal.scss";
+@import "./navbar.scss";
+@import "./footer.scss";
+@import "./home.scss";
+@import "./mail.scss";
+@import "./projects.scss";
+@import "./about.scss";
+@import "./creditfooter.scss";
+
+
+
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: $nav_height;
+}
+
+  
+body{
+  background-color: $mainbg_black;
+  color: $mainclr_white;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body.active{
+  overflow-y: hidden;
+}
+
+
+// the cursor blob
+
+.cursor__blob{
+
+  z-index: 1000;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color:$main_pink;
+  position: fixed;
+  transition: top 0.05s linear ,left 0.05s linear,transform 0.1s linear;
+      @include media("<=1000px"){
+        display: none;
+      }
+}
+
+
+
+
+
