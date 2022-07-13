@@ -88,22 +88,26 @@ const Hero = () => {
           </div>
           <div className='my-7'>
             <p className='mt-2'>
-              <span className='pink-text'>Problem 2 </span>: The users often
-              couldnt contact the experts because of clashing schedules
+              <span className='pink-text'>Problem 2 </span>: The organisation sign-up page didnt motivate firms to sign -up for zifcare
             </p>
             <p className='mt-2'>
-              <span className='pink-text'>Solution </span>: Create a proper
-              consultation booking process to avoid any conflict
+              <span className='pink-text'>Solution </span>: Add reasons as to why they should consider mental health seriously and how zifcare could help. Make the sign-up process simple. Make zifcare approachable.
             </p>
           </div>
           <div className='my-7'>
             <p className='mt-2'>
-              <span className='pink-text'>Problem 3 </span>: Distinguish between
-              payable and free content in the platform
+              <span className='pink-text'>Problem 3 </span>: The users often couldnt contact the experts because of clashing schedules 
             </p>
             <p className='mt-2'>
-              <span className='pink-text'>Solution </span>: Create a proper
-              consultation booking process to avoid any conflict
+              <span className='pink-text'>Solution </span>: Create a proper consultation booking process to avoid any conflict
+            </p>
+          </div>
+          <div className='my-7'>
+            <p className='mt-2'>
+              <span className='pink-text'>Problem 4 </span>: Distinguish between payable and free content in the platform
+            </p>
+            <p className='mt-2'>
+              <span className='pink-text'>Solution </span>: Introduce a GOLD icon to distinguish between paid and non-paid content
             </p>
           </div>
         </div>
